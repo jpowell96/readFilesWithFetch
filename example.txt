@@ -1,0 +1,3 @@
+This is a text file with a bunch of text
+in it. This is also returned if you use the
+.text() from a response.

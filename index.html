@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>My First Heading</h1>
+
+<p>My first paragraph.</p>
+<script>
+fetch('example.csv')
+.then(response => response.text()) 
+.then(csvString => {
+	const lines = csvString.split('\n');
+  	for (line of lines) {
+  		console.log(line.split(","));
+  	}
+});
+
+fetch('example.txt')
+.then(response => response.text()) 
+.then(textString => {
+  	console.log(textString);
+});
+
+fetch('example.json')
+.then(response => response.json()) 
+.then(json => {
+  	console.log(json);
+});
+
+</script>
+</body>
+</html>

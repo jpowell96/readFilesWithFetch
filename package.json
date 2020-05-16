@@ -1,0 +1,11 @@
+{
+  "name": "ReadFilesWithFetch",
+  "version": "1.0.0",
+  "description": "Show how to get a file using fetch",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Jonathan Powell",
+  "license": "ISC"
+}
