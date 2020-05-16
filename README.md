@@ -7,7 +7,7 @@ retrieve a .txt file, a .csv file, and a .json file using fetch.
 Output is printed to the console. When the project is running from 'npm run start'
 you can open the inspector to see the output.
 
-#Installation
+## Installation
 
 1. Clone the git repository
 2. npm install
