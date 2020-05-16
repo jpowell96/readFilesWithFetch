@@ -9,9 +9,9 @@
 fetch('example.csv')
 .then(response => response.text()) 
 .then(csvString => {
-	const lines = csvString.split('\n');
-  	for (line of lines) {
-  		console.log(line.split(","));
+	const rows = csvString.split('\n');
+  	for (row of rows) {
+  		console.log(row.split(","));
   	}
 });
 
