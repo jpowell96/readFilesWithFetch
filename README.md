@@ -12,6 +12,7 @@ you can open the inspector to see the output.
 1. Clone the git repository
 2. npm install
 3. To run the server run 'npm run start', or 'node server.js'. It listens on port '3000'
+4. Open your web browser and go to localhost:3000
 
 
 
