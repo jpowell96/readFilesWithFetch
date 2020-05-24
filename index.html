@@ -9,8 +9,10 @@
 fetch('example.csv')
 .then(response => response.text()) 
 .then(csvString => {
+	//Split the csv into rows
 	const rows = csvString.split('\n');
   	for (row of rows) {
+	//Split the row into each of the comma separated values
   		console.log(row.split(","));
   	}
 });
